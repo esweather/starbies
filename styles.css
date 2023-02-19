@@ -69,7 +69,7 @@ body {
     line-height: 1.5;
 }
 
-/* headings 
+/* headings */ 
 
 h1, h2, h3, h4 {
     font-weight: 600;
@@ -87,7 +87,7 @@ h2 {
 h3 {
     font-size: 1.9rem;
 }
-*/ 
+
 
 /* links */
 
@@ -118,8 +118,13 @@ a {
     border-bottom: #008248 solid 0.5rem;
 }
 
+.join {
+    color: #000;
+}
+
 
 /* buttons */
+
 
 .btn {
     border: 1px solid rgba(0,0,0,.87);
@@ -151,6 +156,21 @@ a {
     gap: 1.6rem;
 }
 
+.btn-hero {
+    background-color: #008248;
+    border: 1px solid #008248;
+    border-radius: 5rem;
+    padding: 0.7rem 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    align-self: flex-start;
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
 /* svgs */
 
 .logo {
@@ -180,3 +200,28 @@ a {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* hero section */
+
+.hero {
+    background-color: #d4e8e1;
+    background-image: url(starbucks-hero-banner.jpeg);
+    background-position: 50%;
+    background-size: auto 100%;
+    height: 80rem;
+    width: 100%;
+  }
+
+  .hero {
+    position: relative;
+    text-align: center;
+    color: #000;
+  }
+
+  .hero-section {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    justify-content: center;
+ }
+
